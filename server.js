@@ -9,6 +9,7 @@ var articles = {
 'article-One' : {title : 'Article one| Vimala',
     heading : 'Article-One',
     date : 'Feb 11, 2017',
+    
     content : `
             <p>
                    Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.
