@@ -20,3 +20,10 @@ body {
     height: 200px;
 }
 
+.content{
+            max-width:1000px;
+            border: 1px solid #FFF;
+            margin :0 auto;
+            padding: 60px 80px;
+            font-family:sans-sarif;
+        }
