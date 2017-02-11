@@ -20,7 +20,7 @@ body {
     height: 200px;
 }
 
-.content{
+.container{
             max-width:1000px;
             border: 1px solid #FFF;
             margin :0 auto;
