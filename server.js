@@ -13,15 +13,7 @@ var articles = {
     
     content : `
             <p>
-                   Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.
-            </p>  
-       
-            <p>
-                   Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.
-            </p>
-        
-            <p>
-                    Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.Im just learning how to make websites. Its going to be fabulous.
+                   This is my first article
             </p>`
      },
 'article-Two' : {
