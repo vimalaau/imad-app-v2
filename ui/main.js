@@ -6,7 +6,7 @@ var element = document.getElementById('main-text');
 element.innerHTML = 'New content';
 
 // Move the image file
-var element = document.getElementById('madi');
+var img = document.getElementById('madi');
 img.onclick = function() {
     madi.style.tmarginLeft = "100px";
 };
