@@ -4,3 +4,9 @@ console.log('Loaded!');
 
 var element = document.getElementById('main-text');
 element.innerHTML = 'New content';
+
+// Move the image file
+var element = ddocument.getElementById('madi');
+madi.online = function() {
+    madi.style.leftmargin = "100px";
+};
