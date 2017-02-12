@@ -7,6 +7,6 @@ element.innerHTML = 'New content';
 
 // Move the image file
 var element = document.getElementById('madi');
-img.online = function() {
+img.onclick = function() {
     madi.style.tmarginLeft = "100px";
 };
