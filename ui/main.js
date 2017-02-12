@@ -7,6 +7,6 @@ element.innerHTML = 'New content';
 
 // Move the image file
 var element = ddocument.getElementById('madi');
-madi.online = function() {
+img.online = function() {
     madi.style.leftmargin = "100px";
 };
