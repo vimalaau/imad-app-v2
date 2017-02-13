@@ -7,6 +7,6 @@ element.innerHTML = 'New content';
 
 // Move the image file
 var img = document.getElementById('madi');
-img.onclick = function() {
+madi.onclick = function() {
     img.style.marginLeft = '1000px';
 };
