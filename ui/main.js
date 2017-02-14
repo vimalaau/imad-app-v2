@@ -1,18 +1,16 @@
-console.log('Loaded!');
+var button = document.getElementById("counter");
 
-// change the text of the id main-text
-
-var element = document.getElementById('main-text');
-element.innerHTML = 'New content';
-
-// Move the image file
-var img = document.getElementById('madi');
-
-var marginLeft = 0;
-function moveRight(){
-    marginLeft = marginLeft + 10;
-    img.style.marginLeft = marginLeft + 'px';
-}
-madi.onclick = function() {
-  var interval = setInterval(moveRight, 100);
+button.onclick = function() {
+    
+    // Make a request to the counter end
+    
+    
+    //Capture the response and store it in a variable
+    
+    
+    //Render the variable to the correct span
+    
+    counter = counter + 1;
+    var span = document.getElementById("count");
+    span.innerHtml = counter.toString();
 };
