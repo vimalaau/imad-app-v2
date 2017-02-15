@@ -26,7 +26,7 @@ request.send(null);
 //submit name
 
 var submit = document.getElementById('submit_btn');
-submit.onclick = function() {
+submit.onClick = function() {
     
     //create a req object
     var request = new XMLHttpRequest();
@@ -48,4 +48,5 @@ submit.onclick = function() {
             ul.innerHTML = list;
             }
         }
+    };
 };
