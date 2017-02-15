@@ -42,11 +42,13 @@ submit.onClick = function() {
                         for (i=0; i<names.length; i++) {
                             list += '<li>' + names[i] + '</li>';
                         }  
+            
+            }
+        }
+    };
+    
             var nameInput = document.getElementById('name');
             var name = nameInput.value;
             var ul = document.getElementById('namelist');
             ul.innerHTML = list;
-            }
-        }
-    };
 };
