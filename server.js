@@ -105,8 +105,8 @@ var content = data.content;
                 });
                 
                 var names = [];
-                app.get('/submit-name/:name', function(req, res){
-                    var name = req.params.name;
+                app.get('/submit-name/', function(req, res){ // we are getting as a query submit-name?xxxx
+                    var name = req.query.name;
                     names.push(name);
                     //JSON
                     res.send(JSON.stringify(names));
