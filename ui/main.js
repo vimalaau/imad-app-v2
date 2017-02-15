@@ -46,5 +46,6 @@ submit.onclick = function() {
     var name = nameInput.value;
     var ul = document.getElementById('namelist');
     ul.innerHTML = list;
-    
-};
+            }
+        }
+}
