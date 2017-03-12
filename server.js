@@ -11,7 +11,7 @@ var config = {
     database : 'vimalaau',
     host :'db.imad.hasura-app.io',
     port : '5432',
-    password : process.env.db_vimalaau_22830
+    password : process.env.db-vimalaau-22830
 };
 
 var articles = {
