@@ -70,7 +70,7 @@ var content = data.content;
             </h3>
             
             <div>
-                ${date}
+                ${date.toDateString()}
             </div>
             
             <div class='container'>
