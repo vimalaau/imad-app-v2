@@ -14,37 +14,7 @@ var config = {
     password : 'db-vimalaau-22830'
 };
 
-var articles = {
-'article-one' : {
-    title : 'Article one : Vimala',
-    heading : 'Article-One',
-    date : 'Feb 11, 2017',
-    
-    content : `
-            <p>
-                   This is my first article
-            </p>`
-     },
-'article-two' : {
-    title : 'Article two : Vimala',
-    heading : 'Article-two',
-    date : 'Feb 11, 2017',
-    content : `
-            <p>
-                   This is my second article.
-            </p>`
-     },
-'article-three' : {
-    title : 'Article three : Vimala',
-    heading : 'Article-three',
-    date : 'Feb 11, 2017',
-    content : `
-            <p>
-                   This is my third article
-            </p>`
-     }
 
-};
 
 function createTemplate(data){
 var title = data.title;
@@ -122,7 +92,7 @@ var content = data.content;
                 
                 app.get('/articles/:articleName', function(req, res) {
                     
-                pool.query("SELECT * FROM article WHERE title ='" + req.params.articleName + "'" , function(err,result) {
+                pool.query("SELECT * FROM article WHERE title =$1",[req.params.articleName] , function(err,result) {
                    if(err) {
                        res.status(500).send(err.toString());
                    } else {
