@@ -120,7 +120,9 @@ var content = data.content;
 
                 });
                 
-                app.get('/:articleName', function(req, res) {
+                app.get('/articles:articleName', function(req, res) {
+                    
+                pool.query("SELECT * FROM article WHERE title =")
                 var articleName = req.params.articleName;
                 res.send(createTemplate(articles[articleName]));
                 
